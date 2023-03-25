@@ -1,0 +1,52 @@
+*{
+    /* Con esto se elimina los margenes que coloca por default el navegador */
+    margin: 0;
+    padding: 0;
+}
+/* p{
+    margin: 50px;
+    border: dotted 3px blue;
+    padding: 30px;
+} */
+
+/* Barra de menus */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    border: solid 1px plum;
+    background-color: rgb(255, 185, 255);
+    width: 200px;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    /* Redondea los puntos de los botones */
+    border-radius: 30px;
+    /* Coloca sobras de elementos  */
+    box-shadow: 3px 3px 3px rgb(10, 10, 10);
+}
+p{
+    font-weight: bold;
+    color: purple;
+    font-size: 30px;
+   /* Sombra de texto */
+    text-shadow: -5px 6px 5px rgb(10, 10, 10) ;
+    letter-spacing: 3px;
+
+}
+img{
+    width: 300px;
+    
+}
+header{
+    /* Degradado de color */
+    background: linear-gradient(blue,rgba(83, 75, 75, 0.041));
+    padding: 80px;
+}
+
+ul{
+ /* Coloca de forma lineal los botones */
+    display: flex;
+}
