@@ -12,12 +12,12 @@
 /* Barra de menus */
 a{
     text-decoration: none;
-    color: white;
+    color: #0d0d13;
 }
 
 li{
-    border: solid 1px #023e8a;
-    background-color: #48cae4;
+    border: solid 2px #0d0d0e;
+    background-color: #91ddf7;
     width: 200px;
     margin: 30px;
     padding: 15px;
@@ -29,10 +29,10 @@ li{
 }
 p{
     font-weight: bold;
-    color: purple;
+    color: #0d0d13;
     font-size: 30px;
    /* Sombra de texto */
-    text-shadow: -5px 6px 5px rgb(10, 10, 10) ;
+    text-shadow: -5px 6px 5px white;
     letter-spacing: 3px;
 
 }
@@ -42,7 +42,7 @@ img{
 }
 header{
     /* Degradado de color */
-    background: linear-gradient(blue,rgba(83, 75, 75, 0.041));
+    background: linear-gradient(#bde0ec,#286eb7);
     padding: 80px;
 }
 
