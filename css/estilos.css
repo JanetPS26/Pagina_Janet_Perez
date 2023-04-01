@@ -17,7 +17,8 @@ a{
 
 li{
     border: solid 2px #0d0d0e;
-    background-color: #91ddf7;
+    background: linear-gradient(#235c99,white);
+    /* background-color: #91ddf7; */
     width: 200px;
     margin: 30px;
     padding: 15px;
@@ -26,8 +27,10 @@ li{
     border-radius: 30px;
     /* Coloca sobras de elementos  */
     box-shadow: 3px 3px 3px rgb(10, 10, 10);
+    /* Modifica el estilo de los bullets */
+    list-style-type: none;
 }
-p{
+nav p{
     font-weight: bold;
     color: #0d0d13;
     font-size: 30px;
@@ -43,10 +46,48 @@ img{
 header{
     /* Degradado de color */
     background: linear-gradient(#bde0ec,#286eb7);
-    padding: 80px;
+    padding: 30px;
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
 }
+nav{
+    width: 100%;
+    height: 20vh;
+    /* Alinea todos los elementos de manera horizontal */
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+}
+/* se debe colocar "." y el nombre de la clase */
+.caja{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cajita{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 ul{
  /* Coloca de forma lineal los botones */
     display: flex;
+    
 }
+/* footer{
+   
+    background-color: #bde0ec;
+    /* Ancho es en %*/
+    /*width: 40%;*/
+    /* Alto es en vh*/
+    /*height: 30vh;*/
+    /* Respeta las medidas indicadas sin que se desborde el texto, lo agrega aun cuadro y se puede desplazar el contenido */
+    /* overflow: auto; */
+/*} */
