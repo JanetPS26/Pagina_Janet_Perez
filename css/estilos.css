@@ -16,8 +16,8 @@ a{
 }
 
 li{
-    border: solid 1px plum;
-    background-color: rgb(255, 185, 255);
+    border: solid 1px #023e8a;
+    background-color: #48cae4;
     width: 200px;
     margin: 30px;
     padding: 15px;
