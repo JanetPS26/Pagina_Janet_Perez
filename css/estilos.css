@@ -1,3 +1,4 @@
+
 *{
     /* Con esto se elimina los margenes que coloca por default el navegador */
     margin: 0;
@@ -29,6 +30,15 @@ li{
     box-shadow: 3px 3px 3px rgb(10, 10, 10);
     /* Modifica el estilo de los bullets */
     list-style-type: none;
+    
+}
+/* Agrega efectos al momento de colocar el puntero */
+li:hover{
+    /* Opaca la caja en donde se encuentra el puntero, hasta 1 donde uno no se opaca y .1 es mas claro */
+    /* opacity: .5; */
+    color: blue;
+    background-color: white;
+    font-size: 3mm;
 }
 nav p{
     font-weight: bold;
@@ -44,8 +54,9 @@ img{
     
 }
 header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* Degradado de color */
-    background: linear-gradient(#bde0ec,#286eb7);
+    background: linear-gradient(#286eb7,#bde0ec,#fff);
     padding: 30px;
     overflow: auto;
     width: 100%;
@@ -74,13 +85,55 @@ nav{
 }
 
 
-
-
 ul{
  /* Coloca de forma lineal los botones */
     display: flex;
     
 }
+h1{
+    /* mm incrementa el tamaño original */
+    font-size: 4mm;
+    text-align: right;
+    letter-spacing: 3px;
+}  
+span{
+        color: #235c99;
+        letter-spacing: 5px;
+        font-weight:bold;
+       font-size: 4mm;
+       text-decoration-style: wavy;
+     
+    }
+
+
+/* Inicia sección acerca de */
+.acerca{
+    width: 100%;
+    height: 80vh;
+    /* Agrega imagenes de fondo es con background */
+    background: url(../img/vector.jpg);
+    /* Instrucción para que no repita la imagen de fondo */
+    background-repeat: no-repeat;
+     /* Instrucción para indicar de donde sale la iamgen y como se distribuye en el fondo */
+    background-position: center;
+     /* Instrucción para indicar el tamaño de la imagen de fondo */
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+.acerca2{
+    width: 60%;
+    height: 50vh;
+    text-align: justify;
+  /* Con las barras espaciadoras que se encuentran a lado de los colores es para indicar la transparencia, para este ejercicio tien 50% */
+    background: linear-gradient(to right,#286db769,#bde0ec77,#ffffff80);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
 /* footer{
    
     background-color: #bde0ec;
